@@ -5,7 +5,8 @@ import Logo from './Logo'
 const links = [
   { label: 'Papers', href: '#papers' },
   { label: 'Topical', href: '#/topical' },
-  { label: 'Makers', href: '#makers' },
+  // Re-add when the Makers section is toggled back on in App.jsx:
+  // { label: 'Makers', href: '#makers' },
   { label: 'In action', href: '#showcase' },
   { label: 'FAQ', href: '#faq' },
 ]

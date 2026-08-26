@@ -14,6 +14,11 @@ import Footer from './components/Footer'
 // on its own route (#/topical) and only mounts there, keeping the home page light.
 const isTopicalRoute = () => window.location.hash.startsWith('#/topical')
 
+// Section toggles — flip to `true` to bring these sections back on the home page.
+// (Also re-add the matching nav links in Navbar.jsx when re-enabling.)
+const SHOW_STATS = false // the "at a glance" 4-box stats row
+const SHOW_MAKERS = false // the "Who makes Paperdome" credibility section
+
 export default function App() {
   const [topical, setTopical] = useState(isTopicalRoute())
 
@@ -49,8 +54,8 @@ export default function App() {
       ) : (
         <main>
           <Hero />
-          <Stats />
-          <Makers />
+          {SHOW_STATS && <Stats />}
+          {SHOW_MAKERS && <Makers />}
           <ScrollShowcase />
           <PaperCatalog />
           <FAQ />

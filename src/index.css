@@ -295,12 +295,12 @@ h3 {
   gap: 20px;
   padding: 11px 14px 11px 20px;
   border-radius: var(--radius-pill);
-  /* Opaque enough that page content never bleeds through the floating bar. */
-  background: rgba(255, 255, 255, 0.9);
+  /* Fully opaque so page content never bleeds through the floating bar. */
+  background: #ffffff;
   transition: box-shadow 0.3s var(--ease), background 0.3s var(--ease);
 }
 .nav.scrolled .nav-inner {
-  background: rgba(255, 255, 255, 0.96);
+  background: #ffffff;
   box-shadow: var(--shadow-lg);
 }
 .brand {
@@ -507,12 +507,12 @@ h3 {
 }
 .cs-header {
   max-width: 64rem;
-  margin: 0 auto 8px;
+  margin: 0 auto 24px;
   text-align: center;
 }
 .cs-card {
   max-width: 64rem;
-  margin: -2rem auto 0;
+  margin: 1.5rem auto 0;
   height: 30rem;
   width: 100%;
   border: 4px solid var(--c-600);
@@ -1045,9 +1045,10 @@ h3 {
   border: 1px solid var(--line);
   padding: 22px 24px;
   overflow: hidden;
-  /* De-glossed: flat translucent fill + light shadow (no backdrop blur) so a
+  /* Fully opaque white fill (no translucency) so nothing behind — the floating
+     navbar included — ever shows through a card. Flat, no backdrop blur, so a
      gridful of cards stays cheap to paint. */
-  background: var(--glass-bg-strong);
+  background: #ffffff;
   box-shadow: var(--shadow-sm);
   /* [DISABLED — display-card animations removed at user request]
      At-rest grayscale/dim + transitions. Re-enable with the hover block below

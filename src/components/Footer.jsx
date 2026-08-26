@@ -10,10 +10,10 @@ export default function Footer({ cta = true }) {
           <div className="container">
             <Reveal>
               <div className="cta-band">
-                <h2>Stop guessing the method. Start seeing it.</h2>
+                <h2>We do this for free.</h2>
                 <p>
-                  Open the Paperdome library and work through real 9231 Further
-                  Maths papers with every step in front of you.
+                  If you like our work, please share the website with friends and
+                  family. ~ The Team
                 </p>
                 <div className="hero-actions" style={{ marginTop: 0 }}>
                   <a href="#papers" className="btn btn-primary">

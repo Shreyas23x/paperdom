@@ -51,10 +51,12 @@ export const ContainerScroll = ({ titleComponent, children }) => {
     }
   }, [progress])
 
-  const rotate = useTransform(progress, [0, 1], [20, 0])
-  const translate = useTransform(progress, [0, 1], [0, -100])
+  // Gentle reveal only — the worked-solutions demo should read upright almost
+  // immediately rather than sit tilted/scaled behind a long scroll animation.
+  const rotate = useTransform(progress, [0, 1], [8, 0])
+  const translate = useTransform(progress, [0, 1], [0, -40])
   const scale = useTransform(progress, (v) => {
-    const [from, to] = isMobile ? [0.7, 0.9] : [1.05, 1]
+    const [from, to] = isMobile ? [0.92, 1] : [1, 1]
     return from + (to - from) * v
   })
 

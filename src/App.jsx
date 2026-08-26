@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Stats from './components/Stats'
 import ScrollShowcase from './components/ScrollShowcase'
+import Makers from './components/Makers'
 import PaperCatalog from './components/PaperCatalog'
 import Topical from './components/Topical'
 import FAQ from './components/FAQ'
@@ -49,6 +50,7 @@ export default function App() {
         <main>
           <Hero />
           <Stats />
+          <Makers />
           <ScrollShowcase />
           <PaperCatalog />
           <FAQ />

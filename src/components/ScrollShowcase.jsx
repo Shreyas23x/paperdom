@@ -3,7 +3,7 @@ import { ContainerScroll } from './ui/container-scroll-animation'
 
 // A real worked-solutions paper rendered inside the scroll card — a live demo
 // of the product. Shows the top of a Further Probability & Statistics paper
-// fitted to width, framed like Paperdoma's inline reader.
+// fitted to width, framed like Paperdome's inline reader.
 function PaperDemo() {
   return (
     <div className="paper-demo">
@@ -54,8 +54,8 @@ export default function ScrollShowcase() {
                 fontSize: '1.05rem',
               }}
             >
-              Scroll to bring Paperdoma into view — clean, fast and built around
-              the work itself.
+              A closer look at Paperdome — clean, fast and built around the work
+              itself.
             </p>
           </>
         }

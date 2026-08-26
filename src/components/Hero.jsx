@@ -30,7 +30,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.15, ease }}
       >
-        Paperdoma turns every 9231 Further Maths question into a clear, step-by-step
+        Paperdome turns every 9231 Further Maths question into a clear, step-by-step
         solution. Read the reasoning, follow the method, and check your working against
         full marks — all in one slick library.
       </motion.p>

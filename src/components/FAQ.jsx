@@ -21,8 +21,8 @@ const faqs = [
     a: 'The library currently includes fully solved Further Mechanics papers (2021) and Further Probability & Statistics papers (2022 and 2025). More sessions and the Pure components are being added — those appear as “coming soon” cards.',
   },
   {
-    q: 'Is Paperdoma affiliated with Cambridge / CIE?',
-    a: 'No. Paperdoma is an independent study resource. “Cambridge”, “CIE” and the 9231 syllabus code belong to Cambridge Assessment International Education. We simply provide worked solutions to help students learn.',
+    q: 'Is Paperdome affiliated with Cambridge / CIE?',
+    a: 'No. Paperdome is an independent study resource. “Cambridge”, “CIE” and the 9231 syllabus code belong to Cambridge Assessment International Education. We simply provide worked solutions to help students learn.',
   },
 ]
 

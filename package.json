@@ -1,9 +1,9 @@
 {
-  "name": "paperdoma",
+  "name": "paperdome",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Paperdoma — solved CIE A-Level 9231 Further Mathematics past papers",
+  "description": "Paperdome (pastpaperdome.com) — solved CIE A-Level 9231 Further Mathematics past papers",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

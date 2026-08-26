@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import Reveal from './Reveal'
+import Logo from './Logo'
 
 export default function Footer({ cta = true }) {
   return (
@@ -11,7 +12,7 @@ export default function Footer({ cta = true }) {
               <div className="cta-band">
                 <h2>Stop guessing the method. Start seeing it.</h2>
                 <p>
-                  Open the Paperdoma library and work through real 9231 Further
+                  Open the Paperdome library and work through real 9231 Further
                   Maths papers with every step in front of you.
                 </p>
                 <div className="hero-actions" style={{ marginTop: 0 }}>
@@ -33,13 +34,14 @@ export default function Footer({ cta = true }) {
           <div className="footer-grid">
             <div className="footer-col">
               <a href="#top" className="brand">
-                <img src="/favicon.svg" alt="" className="brand-mark" />
-                Paperdoma<span className="dot">.</span>
+                <Logo className="brand-mark" />
+                Paperdome<span className="dot">.</span>
               </a>
               <p>
                 Fully worked, step-by-step solutions for CIE International A-Level 9231
                 Further Mathematics. Learn the method, master the marks.
               </p>
+              <span className="footer-domain">pastpaperdome.com</span>
             </div>
             <div className="footer-col">
               <h4>Library</h4>
@@ -62,7 +64,7 @@ export default function Footer({ cta = true }) {
             </div>
           </div>
           <div className="footer-bottom">
-            <span>© {new Date().getFullYear()} Paperdoma. An independent study resource.</span>
+            <span>© {new Date().getFullYear()} Paperdome · pastpaperdome.com — An independent study resource.</span>
             <span>
               Not affiliated with or endorsed by Cambridge Assessment International
               Education.

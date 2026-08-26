@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
 import { Menu, X, ArrowRight } from 'lucide-react'
+import Logo from './Logo'
 
 const links = [
   { label: 'Papers', href: '#papers' },
   { label: 'Topical', href: '#/topical' },
+  { label: 'Makers', href: '#makers' },
   { label: 'In action', href: '#showcase' },
   { label: 'FAQ', href: '#faq' },
 ]
@@ -23,9 +25,9 @@ export default function Navbar() {
     <nav className={`nav ${scrolled ? 'scrolled' : ''} ${open ? 'open' : ''}`}>
       <div className="container">
         <div className="nav-inner glass">
-          <a href="#top" className="brand" aria-label="Paperdoma home">
-            <img src="/favicon.svg" alt="" className="brand-mark" />
-            Paperdoma<span className="dot">.</span>
+          <a href="#top" className="brand" aria-label="Paperdome home">
+            <Logo className="brand-mark" />
+            Paperdome<span className="dot">.</span>
           </a>
 
           <div className="nav-links">

@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { createPortal } from 'react-dom'
 import { motion, AnimatePresence } from 'framer-motion'
+import { track } from '@vercel/analytics'
 import { X, Download, ExternalLink } from 'lucide-react'
 import { COMPONENTS } from '../data/papers'
 
@@ -69,7 +70,17 @@ export default function PaperViewer({ paper, onClose }) {
                 >
                   <ExternalLink size={16} /> New tab
                 </a>
-                <a className="btn btn-primary btn-sm" href={paper.file} download>
+                <a
+                  className="btn btn-primary btn-sm"
+                  href={paper.file}
+                  download
+                  onClick={() =>
+                    track('download', {
+                      paper: paper.id,
+                      component: paper.component,
+                    })
+                  }
+                >
                   <Download size={16} /> Download
                 </a>
                 <button

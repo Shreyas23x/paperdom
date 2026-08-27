@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { track } from '@vercel/analytics'
 import {
   Search,
   Eye,
@@ -250,7 +251,13 @@ export default function PaperCatalog() {
                           href={p.file}
                           download
                           aria-label={`Download ${p.label}`}
-                          onClick={(e) => e.stopPropagation()}
+                          onClick={(e) => {
+                            e.stopPropagation()
+                            track('download', {
+                              paper: p.id,
+                              component: p.component,
+                            })
+                          }}
                         >
                           <Download size={18} />
                         </a>

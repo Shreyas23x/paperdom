@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import Background from './components/Background'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -44,6 +45,7 @@ export default function App() {
 
   return (
     <>
+      <Analytics />
       <Background />
       <Navbar />
       {topical ? (

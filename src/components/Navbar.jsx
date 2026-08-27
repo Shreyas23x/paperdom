@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="nav-inner glass">
           <a href="#top" className="brand" aria-label="Paperdome home">
             <Logo className="brand-mark" />
-            Paperdome<span className="dot">.</span>
+            Paperdome
           </a>
 
           <div className="nav-links">

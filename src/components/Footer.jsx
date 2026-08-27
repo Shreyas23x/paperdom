@@ -41,7 +41,7 @@ export default function Footer({ cta = true }) {
                 Fully worked, step-by-step solutions for CIE International A-Level 9231
                 Further Mathematics. Learn the method, master the marks.
               </p>
-              <span className="footer-domain">pastpaperdome.com</span>
+              <span className="footer-domain">pastpaperdome.in</span>
             </div>
             <div className="footer-col">
               <h4>Library</h4>
@@ -64,7 +64,7 @@ export default function Footer({ cta = true }) {
             </div>
           </div>
           <div className="footer-bottom">
-            <span>© {new Date().getFullYear()} Paperdome · pastpaperdome.com — An independent study resource.</span>
+            <span>© {new Date().getFullYear()} Paperdome · pastpaperdome.in — An independent study resource.</span>
             <span>
               Not affiliated with or endorsed by Cambridge Assessment International
               Education.

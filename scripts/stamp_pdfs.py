@@ -1,6 +1,6 @@
 """
 Stamp every downloadable solved paper in public/papers/ with a Paperdome seal:
-a "PAPERDOME" mark on the top-right of page 1 and a "Paperdome · pastpaperdome.com"
+a "PAPERDOME" mark on the top-right of page 1 and a "Paperdome · pastpaperdome.in"
 footer on every page. Safe to re-run — already-stamped files are skipped (tracked
 via a marker in the PDF metadata).
 
@@ -10,7 +10,7 @@ Run from the project root:  python scripts/stamp_pdfs.py
 import fitz, os, glob, tempfile
 
 FOLDER = os.path.join(os.path.dirname(__file__), "..", "public", "papers")
-MARK = "paperdome-stamped-v1"
+MARK = "paperdome-stamped-v2"
 GREY = (0.55, 0.55, 0.58)
 SEAL_STROKE = (0.62, 0.62, 0.66)
 SEAL_INK = (0.40, 0.40, 0.44)
@@ -25,7 +25,7 @@ def stamp(path):
     if already_stamped(doc):
         doc.close()
         return "skip"
-    foot = "Paperdome  ·  pastpaperdome.com"
+    foot = "Paperdome  ·  pastpaperdome.in"
     for page in doc:
         r = page.rect
         tw = fitz.get_text_length(foot, fontname="helv", fontsize=8)

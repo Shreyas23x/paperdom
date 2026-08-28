@@ -21,7 +21,7 @@ function PaperDemo() {
       <iframe
         className="paper-demo-frame"
         src="/papers/9231_s22_qp_41_solved.pdf#view=FitH&toolbar=0&navpanes=0&statusbar=0&page=3"
-        title="Further Probability & Statistics — worked solutions preview"
+        title="Further Probability & Statistics worked-solutions preview"
         loading="lazy"
       />
     </div>
@@ -44,7 +44,7 @@ export default function ScrollShowcase() {
                 marginTop: 6,
               }}
             >
-              The library, <span style={{ fontStyle: 'italic' }}>in focus</span>
+              The library <span style={{ fontStyle: 'italic' }}>in focus</span>
             </h2>
             <p
               style={{
@@ -54,7 +54,7 @@ export default function ScrollShowcase() {
                 fontSize: '1.05rem',
               }}
             >
-              A closer look at Paperdome — clean, fast and built around the work
+              A closer look at Paperdome. Clean, fast and built around the work
               itself.
             </p>
           </>

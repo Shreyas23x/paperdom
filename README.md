@@ -1,6 +1,6 @@
 # Paperdome
 
-**[pastpaperdome.in](https://pastpaperdome.in)** — fully worked, step-by-step solutions for **CIE International A-Level 9231 Further Mathematics** past papers.
+**[pastpaperdome.in](https://pastpaperdome.in)**: fully worked, step-by-step solutions for **CIE International A-Level 9231 Further Mathematics** past papers.
 
 A slick, single-page React site with an academic-light + glassmorphism design, an
 in-browser PDF reader, filterable/searchable catalog, and animated UI.
@@ -8,8 +8,8 @@ in-browser PDF reader, filterable/searchable catalog, and animated UI.
 ## Tech
 
 - **React 18** + **Vite 6**
-- **framer-motion** — reveal animations, layout transitions, modal
-- **lucide-react** — icons
+- **framer-motion**: reveal animations, layout transitions, modal
+- **lucide-react**: icons
 - Plain CSS design system (`src/index.css`) using CSS variables
 
 ## Run it
@@ -50,7 +50,7 @@ npm run preview # preview the production build
 }
 ```
 
-That's it — the card, filters, counts, inline reader and download all update automatically.
+That's it. The card, filters, counts, inline reader and download all update automatically.
 
 ## Currently included papers
 

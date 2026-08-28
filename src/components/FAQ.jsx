@@ -10,7 +10,7 @@ const faqs = [
   },
   {
     q: 'Are the solutions complete and reliable?',
-    a: 'Yes. Each available paper is worked through question by question, with the method laid out step by step following the official mark scheme logic — so you can see precisely how each mark is awarded.',
+    a: 'Yes. Each available paper is worked through question by question, with the method laid out step by step following the official mark scheme logic, so you can see precisely how each mark is awarded.',
   },
   {
     q: 'Can I read papers without downloading anything?',
@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: 'Which papers are available right now?',
-    a: 'The library currently includes fully solved Further Mechanics papers (2021) and Further Probability & Statistics papers (2022 and 2025). More sessions and the Pure components are being added — those appear as “coming soon” cards.',
+    a: 'The library currently includes fully solved Further Mechanics papers (2021) and Further Probability & Statistics papers (2022 and 2025). More sessions and the Pure components are being added. Those appear as “coming soon” cards.',
   },
   {
     q: 'Is Paperdome affiliated with Cambridge / CIE?',

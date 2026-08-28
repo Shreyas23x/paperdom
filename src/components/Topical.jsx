@@ -235,7 +235,7 @@ export default function Topical() {
                   <iframe
                     key={`${selected.id}-${view}`}
                     src={`${fileUrl}#view=FitH&toolbar=0&navpanes=0`}
-                    title={`${sourceOf(selected)} — ${view}`}
+                    title={`${sourceOf(selected)} · ${view}`}
                   />
                 </div>
               </>

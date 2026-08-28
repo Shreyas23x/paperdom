@@ -58,7 +58,7 @@ export default function PaperViewer({ paper, onClose }) {
                   {COMPONENTS[paper.component].code}
                 </span>
                 <h3>
-                  {COMPONENTS[paper.component].name} — {paper.label}
+                  {COMPONENTS[paper.component].name} · {paper.label}
                 </h3>
               </div>
               <div className="modal-actions">

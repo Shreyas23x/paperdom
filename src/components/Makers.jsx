@@ -10,14 +10,14 @@ const makers = [
     stat: '99',
     unit: 'PUM',
     title: 'Further Mechanics',
-    note: 'Full marks in Paper 3 — a perfect score in AS-Level Further Mechanics.',
+    note: 'Full marks in Paper 3. A perfect score in AS-Level Further Mechanics.',
   },
   {
     icon: Award,
     stat: '50/50',
     unit: '',
     title: 'Probability & Statistics',
-    note: 'A flawless raw mark across the Paper 4 exam — nothing dropped.',
+    note: 'A flawless raw mark across the Paper 4 exam. Nothing dropped.',
   },
   {
     icon: GraduationCap,
@@ -38,7 +38,7 @@ export default function Makers() {
             <h2>Written by students who topped 9231</h2>
             <p>
               Every solution is worked by AS-Level Further Maths students with the
-              results to prove it — so you learn the method from people who actually
+              results to prove it, so you learn the method from people who actually
               scored the marks.
             </p>
           </div>

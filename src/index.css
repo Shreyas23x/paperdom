@@ -379,6 +379,10 @@ h3 {
   font-size: clamp(2.7rem, 6.4vw, 4.8rem);
   max-width: 15ch;
   margin: 0 auto;
+  /* Extra vertical room so the italic gradient words (with descenders like the
+     'y' in "fully") aren't clipped between lines or at the bottom. */
+  line-height: 1.16;
+  padding-bottom: 0.12em;
 }
 .hero h1 .grad {
   font-style: italic;

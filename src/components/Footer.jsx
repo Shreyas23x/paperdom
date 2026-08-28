@@ -64,7 +64,7 @@ export default function Footer({ cta = true }) {
             </div>
           </div>
           <div className="footer-bottom">
-            <span>© {new Date().getFullYear()} Paperdome · pastpaperdome.in — An independent study resource.</span>
+            <span>© {new Date().getFullYear()} Paperdome · pastpaperdome.in · An independent study resource.</span>
             <span>
               Not affiliated with or endorsed by Cambridge Assessment International
               Education.

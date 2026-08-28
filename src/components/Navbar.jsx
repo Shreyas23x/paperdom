@@ -3,7 +3,6 @@ import { Menu, X, ArrowRight } from 'lucide-react'
 import Logo from './Logo'
 
 const links = [
-  { label: 'Papers', href: '#papers' },
   { label: 'Topical', href: '#/topical' },
   // Re-add when the Makers section is toggled back on in App.jsx:
   // { label: 'Makers', href: '#makers' },

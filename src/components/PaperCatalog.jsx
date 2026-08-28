@@ -180,7 +180,7 @@ export default function PaperCatalog() {
             <h2>Browse solved 9231 papers</h2>
             <p>
               Filter by component or search a topic. Tap a paper to read the full
-              worked solutions inline, or download the PDF.
+              worked solutions in-line, or download the PDF.
             </p>
           </div>
         </Reveal>

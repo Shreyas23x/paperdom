@@ -21,7 +21,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.05, ease }}
       >
-        Past papers, <span className="grad">fully solved</span>.
+        Past papers <span className="grad">fully solved</span>.
       </motion.h1>
 
       <motion.p
@@ -56,7 +56,7 @@ export default function Hero() {
         transition={{ duration: 0.8, delay: 0.4 }}
       >
         <span><CheckCircle2 size={16} /> Every step shown</span>
-        <span><CheckCircle2 size={16} /> Read inline or download</span>
+        <span><CheckCircle2 size={16} /> Read in-line or download</span>
         <span><CheckCircle2 size={16} /> Topical questions</span>
       </motion.div>
     </header>

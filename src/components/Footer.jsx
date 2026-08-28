@@ -39,7 +39,7 @@ export default function Footer({ cta = true }) {
               </a>
               <p>
                 Fully worked, step-by-step solutions for CIE International A-Level 9231
-                Further Mathematics. Learn the method, master the marks.
+                Further Mathematics.
               </p>
               <span className="footer-domain">pastpaperdome.in</span>
             </div>

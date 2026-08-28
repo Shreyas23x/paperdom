@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { createPortal } from 'react-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import { track } from '@vercel/analytics'
+import { trackDownload } from '../lib/track'
 import { X, Download, ExternalLink } from 'lucide-react'
 import { COMPONENTS } from '../data/papers'
 
@@ -74,12 +74,7 @@ export default function PaperViewer({ paper, onClose }) {
                   className="btn btn-primary btn-sm"
                   href={paper.file}
                   download
-                  onClick={() =>
-                    track('download', {
-                      paper: paper.id,
-                      component: paper.component,
-                    })
-                  }
+                  onClick={() => trackDownload(paper)}
                 >
                   <Download size={16} /> Download
                 </a>

@@ -390,6 +390,12 @@ h3 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  /* inline-block + a little right/bottom padding extends the text-clip paint
+     box so slanted italic glyph edges (the 'y', the 'd') and descenders keep
+     their gradient fill instead of being cropped on desktop WebKit/Blink.
+     Split per word (in the markup) so short atomic boxes still wrap on mobile. */
+  display: inline-block;
+  padding: 0 0.12em 0.08em 0;
 }
 .hero-sub {
   max-width: 60ch;

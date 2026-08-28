@@ -21,7 +21,8 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.05, ease }}
       >
-        Past papers <span className="grad">fully solved</span>.
+        Past papers <span className="grad">fully</span>{' '}
+        <span className="grad">solved</span>.
       </motion.h1>
 
       <motion.p

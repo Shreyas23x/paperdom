@@ -34,7 +34,6 @@ export default function ScrollShowcase() {
       <ContainerScroll
         titleComponent={
           <>
-            <span className="eyebrow">Take a closer look</span>
             <h2
               style={{
                 fontFamily: 'var(--font-display)',
@@ -44,7 +43,7 @@ export default function ScrollShowcase() {
                 marginTop: 6,
               }}
             >
-              The library <span style={{ fontStyle: 'italic' }}>in focus</span>
+              Take a closer look
             </h2>
             <p
               style={{
@@ -54,8 +53,7 @@ export default function ScrollShowcase() {
                 fontSize: '1.05rem',
               }}
             >
-              A closer look at Paperdome. Clean, fast and built around the work
-              itself.
+              Scroll to see how you can expect an average Paperdome solved paper.
             </p>
           </>
         }
